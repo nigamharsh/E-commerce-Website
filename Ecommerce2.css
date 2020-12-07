@@ -459,20 +459,20 @@ img {
   }
 
   .banner img.special_01 {
-    left: 50%;
+    left: 85%;
     transform: translateX(-50%);
-    width: 50rem;
+    width: 25rem;
   }
 
   .banner img.special_02 {
-    left: 50%;
+    left: 85%;
     transform: translateX(-50%);
-    width: 50rem;
+    width: 25rem;
   }
   .banner img.special_03 {
-    left: 55%;
+    left: 85%;
     transform: translateX(-50%);
-    width: 50rem;
+    width: 25rem;
   }
 }
 
@@ -484,7 +484,7 @@ img {
 
 @media only screen and (max-width: 568px) {
   .banner-content h1 {
-    font-size: 3rem;
+    font-size: 6.5rem;
   }
 
   .banner-content h3 {
@@ -1194,7 +1194,7 @@ Facility Media Query
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 999999;
-  transition: 0.3s;
+  transition: 0.5s;
   transform: scale(0.2);
   opacity: 0;
   visibility: hidden;
@@ -1399,6 +1399,34 @@ Facility Media Query
 }
 
 /* ========= Footer ======== */
+.developer{
+  height: 260px;
+  width: 100%;
+}
+#head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-size: 40px;
+}
+.photo{
+  display: flex;
+  padding: 25px;
+}
+#intro{
+  display:flex;
+  font-weight: bolder;
+}
+.shape{
+  height: 175px;
+  width: 200px;
+  margin-left: 125px;
+  border: 5px solid black;
+  border-radius:50%;
+}
+
 .footer {
   background-color: var(--black);
   padding: 6rem 1rem;
@@ -1450,4 +1478,29 @@ Facility Media Query
     grid-template-columns: 1fr;
     row-gap: 2rem;
   }
+}
+
+@media only screen and (max-width: 320px){
+#head{
+  font-size: 25px;
+}
+.shape{
+  height: 120px;
+  width: 120px;
+  margin-left: 10px;
+}
+.developer{
+  height: 350px;
+  width: 350px;
+  padding: 5px;
+}
+.photo{
+  display: block;
+}
+#intro{
+  display: inline;
+  margin-left: 0px;
+  margin-top: -2px;
+  visibility: hidden;
+}
 }
