@@ -1480,7 +1480,7 @@ Facility Media Query
   }
 }
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 450px){
 #head{
   font-size: 25px;
 }
